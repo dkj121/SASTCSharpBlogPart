@@ -1,5 +1,7 @@
 # SASTCsharpBlogPart
 
+![极简的代码](/wwwroot/img/image.png)
+
 这里有一份极简的 Blog 的 API 代码~
 目前这份 Blog 采用的是 MiniAPI，假如你对其他类型的框架更熟悉的话也可以自行选择简单重构这个项目
 至于样例 Bolg 我们在 [blogs](/wwwroot/blogs/) 文件夹中提供了一部分（均为 markdown 格式），你也可以自行上传自己喜欢的内容
@@ -7,14 +9,15 @@
 ## 1、基础要求
 
 - [ ] 在自己的电脑上完成数据库绑定
-- [ ] 目前这份 Blog API 仅仅只能实现最基础的 CURD 功能，我们希望你能给他添加评论区功能
+- [ ] 给当前的 Blog API 添加测试（Swagger、REST Client 等均可）
 - [ ] 为他搭建起一套前端！（允许 vibe coding ~~，但是并不妨碍我们进行批斗~~）
 
 ## 2、进阶要求
 
-- [ ] 把数据库部署到云端（neon、Azure DB 均可）
-- [ ] 部署这个 Blog（github pages、cloudflare、render 甚至 Azure Web App 均可）
-- [ ] 添加一整套用户功能
+- [ ] 把数据库部署到云端（neon、Azure DB 甚至租用一个服务器均可）
+- [ ] 部署这个 Blog（github pages、cloudflare、render、Azure Web App 甚至租用一个服务器均可）
+- [ ] 添加一整套用户或评论区功能~~（我说俩都端上来吧）~~
+- [ ] 为实现的所有功能添加覆盖面全的单元测试
 
 ## 3、开放内容
 

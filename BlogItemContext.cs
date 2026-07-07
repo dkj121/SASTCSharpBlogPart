@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-
+using SASTCsharpBlogPart.Models;
 public class BlogItemContext(DbContextOptions<BlogItemContext> options) : DbContext(options)
 {
     public DbSet<BlogItem> BlogItem { get; set; } = default!;

@@ -2,6 +2,7 @@
 
 这里有一份极简的 Blog 的 API 代码~
 目前这份 Blog 采用的是 MiniAPI，假如你对其他类型的框架更熟悉的话也可以自行选择简单重构这个项目
+至于样例 Bolg 我们在 [Public](/Public/) 中提供了一部分（均为 markdown 格式），你也可以自行上传自己喜欢的内容
 
 ## 1、基础要求
 
@@ -31,6 +32,7 @@ SASTCsharpBlogPart
 │ └─BlogItem.cs
 ├─📂Properties
 │ └─launchSettings.json
+├─📂Public                    // 一些 Blog 文件
 ├─Program.cs
 ├─appsettings.Development.json
 ├─appsettings.json

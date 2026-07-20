@@ -17,7 +17,7 @@
 
 - [ ] 为用户界面添加实时可视化数据
 - [ ] 把数据库部署到云端（neon、Azure DB、AWS、阿里云、腾讯云甚至华为云均可）
-- [ ] 部署这个 Blog（github pages、cloudflare、render、Azure Web App、AWS、阿里云、腾讯云甚至华为云均可）
+- [ ] 部署这个 Blog（vercel、render、github pages、cloudflare、Azure Web App、AWS、阿里云、腾讯云甚至华为云均可）
 - [ ] 为实现的所有功能添加覆盖面全的单元测试
 
 ## （3）开放内容

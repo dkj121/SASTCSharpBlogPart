@@ -1,6 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+/// <summary>
+/// BlogItem 模型类，表示博客文章的基本信息。
+/// </summary>
 namespace SASTCsharpBlogPart.Models
 {
 	[Table("Blogs")]

@@ -3,8 +3,16 @@ using SASTCsharpBlogPart.Models;
 
 namespace SASTCsharpBlogPart.Data
 {
+	/// <summary>
+	/// 初始化数据库种子数据的扩展方法类。
+	/// </summary>
 	public static class BlogItemSeeder
 	{
+		/// <summary>
+		/// 初始化数据库种子数据，如果数据库中没有任何博客项，则添加一些默认的博客项。
+		/// </summary>
+		/// <param name="app">WebApplication 实例</param>
+		/// <returns>异步任务</returns>
 		public static async Task InitializeAsync(this WebApplication app)
 		{
 			using var scope = app.Services.CreateScope();
